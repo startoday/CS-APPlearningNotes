@@ -1,1 +1,7 @@
+1.
+hello.c -->预处理器cpp（处理根据#开头的命令） --------> 编译器 --------> 汇编器     ------------------>链接器---------------------->give you executable binary file
 
+                                         hello.i         hello.s(文本）--get汇编语言    hello.o(binary file)+printf.o     hello
+                                         
+                                         
+                                         
