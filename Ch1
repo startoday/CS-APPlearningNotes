@@ -39,3 +39,8 @@ hello.c -->预处理器cpp（处理根据#开头的命令） --------> 编译器
      
      
 6. API（Application Programming Interface，应用程序编程接口）   
+    gcc -std =c99 prog.c
+   
+
+         
+         
