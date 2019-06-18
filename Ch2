@@ -88,3 +88,12 @@
 集合B = {0,2,4,6 } 则 b = [ 0 1 0 1 0 1 0 1]
 
 A&B = [0 1 0 0 0 0 0 1]  ---> A 交 B = {0, 6}
+
+
+8. 一个酷到不行的inplace_swap !!!!!
+
+   void inplace_swap (int * x, int * y) {
+         *y = *x ^ *y;
+         *x = *x ^ *y;
+         *y = *x ^ *y;
+   }
